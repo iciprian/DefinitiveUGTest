@@ -1,0 +1,4 @@
+[OPP]
+ExecutionMethod=RTW
+AggregationPattern=1,1,1,11,14,19,24,32,42,56,73,96,126,165,216,283,371
+RTWMovement=10000 
