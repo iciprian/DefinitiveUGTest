@@ -1,0 +1,954 @@
+2022-02-08 21:59:38 - INFO - Invokation arguments: /home/icipriano/BINARIO_TONHO_7FEB -s /home/icipriano/MinesRepo2/Agricola60/opp/Agricola60 -x /home/icipriano/AuditoriaUGwRTW/1_Inputs/emptyParams.params -w out_cmpWcmp_9Feb_Agricola60 
+2022-02-08 21:59:38 - REPORT - Reading the following parameters file: /home/icipriano/AuditoriaUGwRTW/1_Inputs/emptyParams.params
+2022-02-08 21:59:38 - WARNING - OPP Parser will skip validations of the problem.
+2022-02-08 21:59:38 - REPORT - Reading the following json file: /home/icipriano/MinesRepo2/Agricola60/opp/Agricola60.opp
+2022-02-08 21:59:38 - REPORT - The file /home/icipriano/MinesRepo2/Agricola60/opp/Agricola60.opp has been read successfully.
+2022-02-08 21:59:38 - INFO - Mining block integrality type set to Full
+2022-02-08 21:59:38 - INFO - Parcel integrality type set to Multiple
+2022-02-08 21:59:38 - INFO - Group integrality type set to Full
+2022-02-08 21:59:38 - INFO - Loading time model variables.
+2022-02-08 21:59:38 - INFO - Number of periods: 120
+2022-02-08 21:59:38 - INFO - Discount rate(s): 0, 0.0120711
+2022-02-08 21:59:38 - INFO - Loading Capacity Constraints.
+2022-02-08 21:59:38 - INFO - Constraint - Name: constraint0 | Timesubdivision:  | RHS: 360000
+2022-02-08 21:59:38 - INFO - Constraint - Name: constraint1 | Timesubdivision:  | RHS: 192000
+2022-02-08 21:59:38 - INFO - Constraint - Name: constraint2 | Timesubdivision:  | RHS: 300
+2022-02-08 21:59:38 - INFO - Constraint - Name: constraint3 | Timesubdivision:  | RHS: 4200
+2022-02-08 21:59:38 - INFO - The problem doesn't have a .cat file. One category will be created for each parcel.
+2022-02-08 21:59:38 - WARNING - Cannot skip validation if no category file is specified.
+2022-02-08 21:59:38 - INFO - The problem doesn't have a .mb file. The mining blocks are defined in the parcel file.
+2022-02-08 21:59:38 - REPORT - Loading parcels from /home/icipriano/MinesRepo2/Agricola60/opp/Agricola60.parcels
+2022-02-08 21:59:38 - REPORT - Parsing of the file /home/icipriano/MinesRepo2/Agricola60/opp/Agricola60.parcels: 0.0241 seconds.
+2022-02-08 21:59:38 - REPORT - Creating parcels, mining blocks and categories
+2022-02-08 21:59:38 - REPORT - Parsing 14160 lines from file.
+2022-02-08 21:59:38 - INFO - Processed 1414 lines: 0.0139 seconds.
+2022-02-08 21:59:38 - INFO - Processed 2829 lines: 0.0149 seconds.
+2022-02-08 21:59:38 - INFO - Processed 4244 lines: 0.0174 seconds.
+2022-02-08 21:59:38 - INFO - Processed 5659 lines: 0.0164 seconds.
+2022-02-08 21:59:38 - INFO - Processed 7074 lines: 0.0156 seconds.
+2022-02-08 21:59:38 - INFO - Processed 8489 lines: 0.0216 seconds.
+2022-02-08 21:59:38 - INFO - Processed 9904 lines: 0.0154 seconds.
+2022-02-08 21:59:38 - INFO - Processed 11319 lines: 0.0152 seconds.
+2022-02-08 21:59:38 - INFO - Processed 12734 lines: 0.0155 seconds.
+2022-02-08 21:59:38 - INFO - Processed 14149 lines: 0.0158 seconds.
+2022-02-08 21:59:38 - REPORT - Creating parcels, mining blocks and categories: 0.163 seconds.
+2022-02-08 21:59:38 - REPORT - Loading/Creating OPP Precedences
+2022-02-08 21:59:38 - INFO - Processed 1416 lines. Time: : 0.00538 seconds.
+2022-02-08 21:59:38 - INFO - Processed 2832 lines. Time: : 0.00612 seconds.
+2022-02-08 21:59:38 - INFO - Processed 4248 lines. Time: : 0.00630 seconds.
+2022-02-08 21:59:38 - INFO - Processed 5664 lines. Time: : 0.00666 seconds.
+2022-02-08 21:59:38 - INFO - Processed 7080 lines. Time: : 0.00678 seconds.
+2022-02-08 21:59:38 - INFO - Processed 8496 lines. Time: : 0.00687 seconds.
+2022-02-08 21:59:38 - INFO - Processed 9912 lines. Time: : 0.00745 seconds.
+2022-02-08 21:59:38 - INFO - Processed 11328 lines. Time: : 0.00758 seconds.
+2022-02-08 21:59:38 - INFO - Processed 12744 lines. Time: : 0.00747 seconds.
+2022-02-08 21:59:38 - INFO - Processed 14160 lines. Time: : 0.00756 seconds.
+2022-02-08 21:59:38 - REPORT - Loading/Creating Precedences: 0.0706 seconds.
+2022-02-08 21:59:38 - REPORT - Parsing of the input files: 0.283 seconds.
+2022-02-08 21:59:38 - INFO - Source node Mine contains 14160 categories.
+2022-02-08 21:59:38 - REPORT - ************ Running Upit Preprocess ************
+2022-02-08 21:59:38 - REPORT - Number of blocks in uPit: 12992 of a total of 14160
+2022-02-08 21:59:38 - REPORT - Value of the Upit: 4,255,616,253.000
+2022-02-08 21:59:38 - REPORT - +-----------------------------------------------------------------------------------------------------------------------------+
+2022-02-08 21:59:38 - REPORT - |          |                                 Iteration                                 |              Accumulated             |
+2022-02-08 21:59:38 - REPORT - |----------+---------------------------------------------------------------------------+--------------------------------------|
+2022-02-08 21:59:38 - REPORT - |  # iter  |  # period  |  Undiscounted Objval  |    Discounted Objval  |        Time  |    Discounted Objval  |        Time  |
+2022-02-08 21:59:38 - REPORT - |----------+------------+-----------------------+-----------------------+--------------+-----------------------+--------------|
+2022-02-08 21:59:38 - INFO - Starting iteration 1 with first valid time 0
+2022-02-08 21:59:38 - INFO - ************ Generating Reduced OPP ****************
+2022-02-08 21:59:38 - INFO - Source node Mine contains 12992 categories.
+2022-02-08 21:59:38 - INFO - Aggregation pattern attempt 0
+2022-02-08 21:59:38 - INFO - Using aggregation pattern 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 to create the time subdivision.
+2022-02-08 21:59:38 - INFO - 
+2022-02-08 21:59:38 - INFO - ************ Generating PSP Instance of the problem ****************
+2022-02-08 21:59:45 - INFO - Full PSP generation: 6.27 seconds.
+2022-02-08 21:59:45 - INFO - Reduced PSP generation: 0.588 seconds.
+2022-02-08 21:59:45 - INFO - Generation of PSP, PreProcessing and Reduction took: 7.02 seconds.
+2022-02-08 21:59:46 - INFO - ************** Solving the LP Relaxation of the PSP. **************
+2022-02-08 22:00:02 - INFO - OR Solver: loaded problem with 1045040 vars, 480 constraints, 3333502 non-zero coefficients.
+2022-02-08 22:00:02 - INFO - Parameters:
+2022-02-08 22:00:02 - INFO - 	 Target gap: 1.000000e-04
+2022-02-08 22:00:02 - INFO - 	 Use Master hotstart: 1
+2022-02-08 22:00:02 - INFO - 	 Use Pricing hotstart: 1
+2022-02-08 22:00:03 - INFO - |-----+-----------+---------------------+--------------------+-----------+-----------+-----------+-----------+-----------+------------|
+2022-02-08 22:00:03 - INFO - | BIENSTOCK-ZUCKERBERG ALGORITHM: Target gap = 1.00e-04.  Target eps = 1.00e-06.  Starting phase = Phase II.                          |
+2022-02-08 22:00:03 - INFO - | Number of variables: tot = 1045520, x = 1045040, y = 0, s = 480
+2022-02-08 22:00:03 - INFO - |-----+-----------+---------------------+--------------------+-----------+-----------+-----------+-----------+-----------+------------|
+2022-02-08 22:00:03 - INFO - |Iter.|#Part.     |    Primal Value     |  Lagrangian Value  |    Gap    | Pri. Time | Mas. Time | Tot. Time | Pri. Eps. |   Kappa    |
+2022-02-08 22:00:03 - INFO - |-----+-----------+---------------------+--------------------+-----------+-----------+-----------+-----------+-----------+------------|
+2022-02-08 22:00:05 - INFO - |   1 |    2  481 |       1.2648099e+09 |      2.8614818e+09 |  1.26e+00 |       1.7 |      0.15 |      1.87 |  0.00e+00 |     1.1599 |
+2022-02-08 22:00:06 - INFO - |   2 |    3  483 |       1.4973562e+09 |      2.8614818e+09 |  9.11e-01 |      2.79 |      0.29 |      3.12 |  4.55e-11 |     9.1409 |
+2022-02-08 22:00:08 - INFO - |   3 |    5  489 |       1.5750379e+09 |      2.8614818e+09 |  8.17e-01 |      4.61 |      0.44 |       5.1 |  3.27e-11 |     13.118 |
+2022-02-08 22:00:11 - INFO - |   4 |    9  504 |       1.6132072e+09 |      2.8614818e+09 |  7.74e-01 |      7.52 |       0.6 |      8.18 |  6.00e-11 |     15.322 |
+2022-02-08 22:00:14 - INFO - |   5 |   16  539 |       1.6701577e+09 |      2.8614818e+09 |  7.13e-01 |      10.2 |      0.76 |        11 |  1.03e-10 |     17.453 |
+2022-02-08 22:00:18 - INFO - |   6 |   26  598 |       1.7147061e+09 |      2.8614818e+09 |  6.69e-01 |      14.3 |      0.93 |      15.3 |  1.85e-10 |     31.699 |
+2022-02-08 22:00:23 - INFO - |   7 |   40  705 |       1.7514953e+09 |      2.8614818e+09 |  6.34e-01 |      18.6 |       1.1 |      19.8 |  1.52e-09 |     160.11 |
+2022-02-08 22:00:26 - INFO - |   8 |   65  926 |       1.7641565e+09 |      2.8614818e+09 |  6.22e-01 |      21.9 |      1.28 |      23.2 |  2.28e-10 |     3824.9 |
+2022-02-08 22:00:30 - INFO - |   9 |   99 1291 |       1.7966332e+09 |      2.8614818e+09 |  5.93e-01 |      25.3 |      1.45 |      26.8 |  2.53e-10 |      244.6 |
+2022-02-08 22:00:34 - INFO - |  10 |  141 1639 |       1.8332874e+09 |      2.8614818e+09 |  5.61e-01 |      29.3 |      1.63 |      31.1 |  5.27e-09 |     426.31 |
+2022-02-08 22:00:38 - INFO - |  11 |  201 2212 |       1.8724505e+09 |      2.8614818e+09 |  5.28e-01 |      32.9 |      1.83 |      34.9 |  3.56e-10 |     354.06 |
+2022-02-08 22:00:42 - INFO - |  12 |  239 2592 |       1.8976474e+09 |      2.8614818e+09 |  5.08e-01 |        37 |      2.04 |      39.2 |  1.18e-09 |     589.97 |
+2022-02-08 22:00:47 - INFO - |  13 |  321 3441 |       1.9276194e+09 |      2.8614818e+09 |  4.84e-01 |      41.7 |      2.32 |      44.2 |  6.49e-10 |     1736.3 |
+2022-02-08 22:00:52 - INFO - |  14 |  394 4374 |       1.9558968e+09 |      2.8614818e+09 |  4.63e-01 |      46.6 |      2.61 |      49.3 |  6.74e-10 |     3211.5 |
+2022-02-08 22:00:58 - INFO - |  15 |  466 5029 |       1.9828039e+09 |      2.8614818e+09 |  4.43e-01 |      51.8 |      2.93 |      54.9 |  5.89e-10 |     5444.4 |
+2022-02-08 22:01:03 - INFO - |  16 |  582 6291 |       2.0095536e+09 |      2.8614818e+09 |  4.24e-01 |      56.6 |      3.35 |      60.2 |  1.12e-09 |     3133.7 |
+2022-02-08 22:01:10 - INFO - |  17 |  675 7380 |       2.0582464e+09 |      2.8614818e+09 |  3.90e-01 |      63.3 |      3.82 |      67.3 |  2.59e-09 |      26139 |
+2022-02-08 22:01:16 - INFO - |  18 |  755 8457 |        2.075464e+09 |      2.8614818e+09 |  3.79e-01 |        69 |      4.34 |      73.5 |  1.21e-09 |      17531 |
+2022-02-08 22:01:24 - INFO - |  19 |  920 10275 |        2.108815e+09 |      2.8614818e+09 |  3.57e-01 |      76.1 |      5.25 |      81.6 |  1.23e-09 |      17513 |
+2022-02-08 22:01:31 - INFO - |  20 | 1041 11540 |       2.1363184e+09 |      2.8614818e+09 |  3.39e-01 |      81.7 |       6.1 |        88 |  6.11e-10 |     3845.1 |
+2022-02-08 22:01:39 - INFO - |  21 | 1281 13884 |       2.1658499e+09 |      2.8614818e+09 |  3.21e-01 |      88.1 |      7.49 |      95.8 |  1.26e-09 |       1758 |
+2022-02-08 22:01:47 - INFO - |  22 | 1460 15918 |       2.2007813e+09 |      2.8614818e+09 |  3.00e-01 |      94.5 |      9.11 |       104 |  1.34e-09 |     931.04 |
+2022-02-08 22:01:57 - INFO - |  23 | 1800 19560 |       2.2329283e+09 |      2.8614818e+09 |  2.81e-01 |       101 |        12 |       114 |  1.24e-09 |      10104 |
+2022-02-08 22:02:06 - INFO - |  24 | 2036 21625 |       2.2965157e+09 |      2.8614818e+09 |  2.46e-01 |       108 |      15.6 |       124 |  1.62e-09 |     7739.8 |
+2022-02-08 22:02:17 - INFO - |  25 | 2284 24038 |       2.3253352e+09 |      2.8614818e+09 |  2.31e-01 |       114 |      20.3 |       135 |  1.44e-09 |     7929.1 |
+2022-02-08 22:02:31 - INFO - |  26 | 2602 26968 |       2.3480025e+09 |      2.8614818e+09 |  2.19e-01 |       120 |      27.8 |       148 |  3.84e-09 |      47151 |
+2022-02-08 22:02:45 - INFO - |  27 | 2943 29759 |       2.3766894e+09 |      2.8614818e+09 |  2.04e-01 |       126 |      36.1 |       162 |  2.38e-09 |      19134 |
+2022-02-08 22:03:07 - INFO - |  28 | 3317 32994 |       2.4117849e+09 |      2.8614818e+09 |  1.86e-01 |       132 |      52.4 |       184 |  2.42e-09 |      20383 |
+2022-02-08 22:03:27 - INFO - |  29 | 3667 36042 |       2.4475833e+09 |      2.8614818e+09 |  1.69e-01 |       137 |      66.6 |       204 |  9.09e-10 |      12522 |
+2022-02-08 22:03:53 - INFO - |  30 | 4179 42437 |       2.4645549e+09 |      2.7463556e+09 |  1.14e-01 |       142 |      88.3 |       230 |  2.27e-09 |       8464 |
+2022-02-08 22:04:30 - INFO - |  31 | 4677 48172 |       2.4898202e+09 |      2.7463556e+09 |  1.03e-01 |       148 |       119 |       267 |  7.25e-09 |      15790 |
+2022-02-08 22:05:05 - INFO - |  32 | 5234 54411 |       2.5076374e+09 |      2.7463556e+09 |  9.52e-02 |       154 |       147 |       302 |  7.71e-10 |     6272.1 |
+2022-02-08 22:05:51 - INFO - |  33 | 5813 60943 |       2.5199515e+09 |      2.7459471e+09 |  8.97e-02 |       161 |       187 |       348 |  2.25e-09 | 7.3545e+05 |
+2022-02-08 22:06:33 - INFO - |  34 | 6409 67393 |       2.5304503e+09 |      2.7299418e+09 |  7.88e-02 |       166 |       224 |       390 |  1.20e-09 |      79324 |
+2022-02-08 22:07:25 - INFO - |  35 | 7082 74491 |       2.5464112e+09 |      2.7191822e+09 |  6.78e-02 |       172 |       270 |       442 |  1.31e-09 |      58885 |
+2022-02-08 22:08:14 - INFO - |  36 | 7812 81741 |       2.5609639e+09 |      2.6726766e+09 |  4.36e-02 |       178 |       313 |       491 |  5.46e-10 |      25563 |
+2022-02-08 22:08:59 - INFO - |  37 | 8506 88258 |       2.5691406e+09 |      2.6560166e+09 |  3.38e-02 |       184 |       351 |       536 |  6.19e-09 |      18264 |
+2022-02-08 22:09:58 - INFO - |  38 | 9355 94579 |        2.575237e+09 |      2.6079138e+09 |  1.27e-02 |       191 |       404 |       595 |  1.98e-08 | 1.8938e+05 |
+2022-02-08 22:10:58 - INFO - |  39 | 10151 100247 |       2.5832941e+09 |      2.6063364e+09 |  8.92e-03 |       199 |       456 |       656 |  1.16e-09 |      47324 |
+2022-02-08 22:11:48 - INFO - |  40 | 11012 105966 |       2.5863867e+09 |      2.6055747e+09 |  7.42e-03 |       206 |       499 |       705 |  3.04e-09 |      61602 |
+2022-02-08 22:12:45 - INFO - |  41 | 11809 110706 |       2.5884421e+09 |      2.5962366e+09 |  3.01e-03 |       212 |       550 |       762 |  3.68e-09 |  2.288e+05 |
+2022-02-08 22:13:40 - INFO - |  42 | 12508 114954 |       2.5900648e+09 |      2.5951102e+09 |  1.95e-03 |       218 |       599 |       817 |  3.41e-08 | 7.1471e+10 |
+2022-02-08 22:14:28 - INFO - |  43 | 13116 118410 |       2.5908778e+09 |      2.5933533e+09 |  9.55e-04 |       225 |       640 |       865 |  9.97e-10 | 1.6515e+05 |
+2022-02-08 22:15:14 - INFO - |  44 | 13606 121174 |       2.5912613e+09 |      2.5923854e+09 |  4.34e-04 |       231 |       680 |       912 |  6.53e-10 | 2.4282e+05 |
+2022-02-08 22:15:57 - INFO - |  45 | 14050 123613 |       2.5914524e+09 |      2.5921091e+09 |  2.53e-04 |       237 |       716 |       954 |  4.58e-09 | 4.2698e+05 |
+2022-02-08 22:16:40 - INFO - |  46 | 14382 125478 |       2.5915523e+09 |      2.5918506e+09 |  1.15e-04 |       243 |       753 |       997 |  1.14e-08 |      67695 |
+2022-02-08 22:17:17 - INFO - |  47 | 14642 127010 |       2.5915891e+09 |      2.5917486e+09 |  6.16e-05 |       251 |       783 |  1.03e+03 |  2.12e-09 | 1.9816e+05 |
+2022-02-08 22:17:17 - INFO - |-----+-----------+---------------------+--------------------+-----------+-----------+-----------+-----------+-----------+------------|
+2022-02-08 22:17:17 - INFO - *  47 | 14642 127010 |       2.5915891e+09 |      2.5917486e+09 |  6.16e-05 |       251 |       783 |  1.03e+03 |   2.1e-09 | 1.9816e+05 | OMP_OPTIMAL
+2022-02-08 22:17:17 - INFO - |-----+-----------+---------------------+--------------------+-----------+-----------+-----------+-----------+-----------+------------|
+2022-02-08 22:17:18 - INFO - BZsolval = 2,591,589,064.200452 (upper bound = 2,591,748,615.500909)
+2022-02-08 22:17:18 - INFO - PSP-SM: UB updated. New UB: 2591589064.200453
+2022-02-08 22:17:19 - INFO - PSP-SM: Solution BZ with value 2591589064.200453 inserted as relaxed solution 
+2022-02-08 22:17:19 - INFO - ************** Applying Toposort Heuristic for PSP. **************
+2022-02-08 22:17:30 - INFO - PSP-SM: Solution found by method 'Toposort ET 1' is being saved. Its value is 2574208421.450593. This is the best solution found so far.
+2022-02-08 22:17:30 - INFO - PSP-SM: Solution found by method 'Toposort ET 1' is being saved. Its value is 2574208421.450593. This is the best solution found so far.
+2022-02-08 22:17:32 - INFO - PSP-SM: Solution found by method 'Toposort ET 1 + OD' is not being saved, since its value 2574208421.450593 is not higher than currently saved solutions.
+2022-02-08 22:17:32 - INFO - PSP-SM: Solution found by method 'Toposort ET 1 + PostUpit' is being saved. Its value is 2574296695.227551. This is the best solution found so far.
+2022-02-08 22:17:33 - INFO - PSP-SM: Solution found by method 'Toposort ET 1 + PostUpit' is being saved. Its value is 2574296695.227551. This is the best solution found so far.
+2022-02-08 22:17:35 - INFO - PSP-SM: Solution found by method 'Toposort ET 2' is not being saved, since its value 2574208421.450593 is not higher than currently saved solutions.
+2022-02-08 22:17:36 - INFO - PSP-SM: Solution found by method 'Toposort ET 2' is being saved. Its value is 2574208421.450593. This is the best solution found so far.
+2022-02-08 22:17:37 - INFO - PSP-SM: Solution found by method 'Toposort ET 2 + OD' is not being saved, since its value 2574208421.450593 is not higher than currently saved solutions.
+2022-02-08 22:17:38 - INFO - PSP-SM: Solution found by method 'Toposort ET 2 + PostUpit' is being saved. Its value is 2574296695.227551. This is the best solution found so far.
+2022-02-08 22:17:38 - INFO - PSP-SM: Solution found by method 'Toposort ET 2 + PostUpit' is not being saved, since its value 2574296695.227551 is not higher than currently saved solutions.
+2022-02-08 22:17:41 - INFO - PSP-SM: Solution found by method 'Toposort ET 3' is not being saved, since its value 2574208421.450593 is not higher than currently saved solutions.
+2022-02-08 22:17:41 - INFO - PSP-SM: Solution found by method 'Toposort ET 3' is being saved. Its value is 2574208421.450593. This is the best solution found so far.
+2022-02-08 22:17:43 - INFO - PSP-SM: Solution found by method 'Toposort ET 3 + OD' is not being saved, since its value 2574208421.450593 is not higher than currently saved solutions.
+2022-02-08 22:17:43 - INFO - PSP-SM: Solution found by method 'Toposort ET 3 + PostUpit' is being saved. Its value is 2574296695.227551. This is the best solution found so far.
+2022-02-08 22:17:44 - INFO - PSP-SM: Solution found by method 'Toposort ET 3 + PostUpit' is not being saved, since its value 2574296695.227551 is not higher than currently saved solutions.
+2022-02-08 22:17:46 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.200000' is not being saved, since its value 2573527606.027226 is not higher than currently saved solutions.
+2022-02-08 22:17:47 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.200000' is being saved. Its value is 2573527606.027226. This is the best solution found so far.
+2022-02-08 22:17:48 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.200000 + OD' is not being saved, since its value 2573527606.027226 is not higher than currently saved solutions.
+2022-02-08 22:17:49 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.200000 + PostUpit' is being saved. Its value is 2573615879.804184. This is the best solution found so far.
+2022-02-08 22:17:49 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.200000 + PostUpit' is not being saved, since its value 2573615879.804184 is not higher than currently saved solutions.
+2022-02-08 22:17:52 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.400000' is being saved. Its value is 2576346493.659314. This is the best solution found so far.
+2022-02-08 22:17:52 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.400000' is being saved. Its value is 2576346493.659314. This is the best solution found so far.
+2022-02-08 22:17:54 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.400000 + OD' is not being saved, since its value 2576346493.659314 is not higher than currently saved solutions.
+2022-02-08 22:17:54 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.400000 + PostUpit' is being saved. Its value is 2576434767.436272. This is the best solution found so far.
+2022-02-08 22:17:55 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.400000 + PostUpit' is being saved. Its value is 2576434767.436272. This is the best solution found so far.
+2022-02-08 22:17:58 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.600000' is being saved. Its value is 2576893574.285376. This is the best solution found so far.
+2022-02-08 22:17:58 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.600000' is being saved. Its value is 2576893574.285376. This is the best solution found so far.
+2022-02-08 22:18:00 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.600000 + OD' is not being saved, since its value 2576893574.285376 is not higher than currently saved solutions.
+2022-02-08 22:18:00 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.600000 + PostUpit' is being saved. Its value is 2576981848.062334. This is the best solution found so far.
+2022-02-08 22:18:01 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.600000 + PostUpit' is being saved. Its value is 2576981848.062334. This is the best solution found so far.
+2022-02-08 22:18:03 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.800000' is not being saved, since its value 2576913235.800692 is not higher than currently saved solutions.
+2022-02-08 22:18:04 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.800000' is being saved. Its value is 2576913235.800692. This is the best solution found so far.
+2022-02-08 22:18:05 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.800000 + OD' is not being saved, since its value 2576913235.800692 is not higher than currently saved solutions.
+2022-02-08 22:18:06 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.800000 + PostUpit' is being saved. Its value is 2577001509.577650. This is the best solution found so far.
+2022-02-08 22:18:06 - INFO - PSP-SM: Solution found by method 'Toposort AP 0.800000 + PostUpit' is being saved. Its value is 2577001509.577650. This is the best solution found so far.
+2022-02-08 22:18:09 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000' is being saved. Its value is 2578914746.727433. This is the best solution found so far.
+2022-02-08 22:18:10 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000' is being saved. Its value is 2578914746.727433. This is the best solution found so far.
+2022-02-08 22:18:11 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000 + OD' is not being saved, since its value 2578914746.727433 is not higher than currently saved solutions.
+2022-02-08 22:18:12 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000 + PostUpit' is being saved. Its value is 2579003020.504391. This is the best solution found so far.
+2022-02-08 22:18:12 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000 + PostUpit' is being saved. Its value is 2579003020.504391. This is the best solution found so far.
+2022-02-08 22:18:13 - INFO - PSP-SM: Solution found by method 'Toposort AP 1.000000 + PostUpit' is being saved. Its value is 2579003020.504391. This is the best solution found so far.
+2022-02-08 22:18:13 - INFO - PSP-SM: Best Solution obtained by Toposort AP 1.000000 + PostUpit method, with objective value: 2579003020.504391
+2022-02-08 22:18:13 - INFO - PSP-SM: Best Solution gap: 0.49 %
+2022-02-08 22:18:13 - INFO - 
+2022-02-08 22:18:15 - INFO - Converting solution between OPP objects.
+2022-02-08 22:18:15 - INFO - Converting mining blocks solution between OPP objects.
+2022-02-08 22:18:15 - INFO - Mining blocks solution converted.
+2022-02-08 22:18:15 - INFO - Converting categories solution between OPP objects.
+2022-02-08 22:18:15 - INFO - Categories solution converted.
+2022-02-08 22:18:15 - INFO - Solution converted.
+2022-02-08 22:18:15 - INFO - Checking solution out_cmpWcmp_9Feb_Agricola60_LP feasibility for 120 periods.
+2022-02-08 22:18:16 - INFO - Iteration 1 will attempt to fix 120 periods.
+2022-02-08 22:18:16 - INFO - Iteration 1 fixed 120 periods.
+2022-02-08 22:18:16 - REPORT - |       1  |         0  |           38,131,283  |           38,131,283  |       1,118  |           38,131,283  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         1  |           39,367,316  |           38,897,778  |    0.000701  |           77,029,061  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         2  |           49,018,642  |           47,856,315  |    0.000612  |          124,885,376  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         3  |           51,733,239  |           49,904,146  |    0.000510  |          174,789,522  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         4  |           51,665,499  |           49,244,369  |    0.000322  |          224,033,891  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         5  |           48,750,444  |           45,911,715  |    0.000317  |          269,945,606  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         6  |           45,721,442  |           42,545,521  |    0.000262  |          312,491,126  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         7  |           51,595,043  |           47,438,494  |    0.000305  |          359,929,620  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         8  |           47,661,106  |           43,298,815  |    0.000228  |          403,228,435  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |         9  |           54,341,206  |           48,778,693  |    0.000171  |          452,007,128  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        10  |           52,602,244  |           46,654,565  |    0.000157  |          498,661,693  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        11  |           49,976,188  |           43,796,760  |    0.000253  |          542,458,454  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        12  |           43,741,659  |           37,875,912  |    0.000264  |          580,334,366  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        13  |           50,249,148  |           42,991,791  |    0.000271  |          623,326,156  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        14  |           40,653,956  |           34,367,555  |    0.000319  |          657,693,711  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        15  |           45,929,596  |           38,364,314  |    0.000218  |          696,058,025  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        16  |           48,763,604  |           40,245,710  |    0.000201  |          736,303,735  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        17  |           57,499,697  |           46,889,796  |    0.000175  |          783,193,531  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        18  |           60,236,169  |           48,535,456  |    0.000118  |          831,728,987  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        19  |           58,173,309  |           46,314,238  |    0.000182  |          878,043,225  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        20  |           63,376,326  |           49,854,780  |    0.000176  |          927,898,005  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        21  |           55,826,669  |           43,392,078  |    0.000214  |          971,290,083  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        22  |           52,080,435  |           39,997,452  |    0.000228  |        1,011,287,535  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        23  |           66,263,780  |           50,283,201  |    0.000179  |        1,061,570,736  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        24  |           52,751,199  |           39,551,962  |    0.000237  |        1,101,122,698  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        25  |           45,098,498  |           33,410,791  |    0.000236  |        1,134,533,489  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        26  |           41,682,289  |           30,511,617  |    0.000254  |        1,165,045,106  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        27  |           46,120,366  |           33,357,647  |    0.000281  |        1,198,402,753  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        28  |           51,963,830  |           37,135,801  |    0.000260  |        1,235,538,554  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        29  |           51,024,214  |           36,029,394  |    0.000237  |        1,271,567,948  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        30  |           51,636,300  |           36,026,721  |    0.000244  |        1,307,594,669  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        31  |           45,590,497  |           31,429,172  |    0.000295  |        1,339,023,840  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        32  |           44,397,482  |           30,241,681  |    0.000399  |        1,369,265,522  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        33  |           48,293,189  |           32,502,926  |    0.000262  |        1,401,768,448  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        34  |           51,915,627  |           34,524,204  |    0.000302  |        1,436,292,652  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        35  |           55,335,176  |           36,359,328  |    0.000242  |        1,472,651,980  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        36  |           54,195,174  |           35,185,535  |    0.000226  |        1,507,837,515  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        37  |           50,171,971  |           32,185,013  |    0.000257  |        1,540,022,528  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        38  |           39,833,084  |           25,247,911  |    0.000324  |        1,565,270,439  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        39  |           41,265,815  |           25,844,071  |    0.000329  |        1,591,114,511  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        40  |           47,900,380  |           29,641,382  |    0.000314  |        1,620,755,893  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        41  |           28,736,332  |           17,570,326  |    0.000352  |        1,638,326,219  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        42  |           34,636,483  |           20,925,279  |    0.000374  |        1,659,251,497  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        43  |           46,215,319  |           27,587,504  |    0.000332  |        1,686,839,001  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        44  |           46,266,538  |           27,288,675  |    0.000383  |        1,714,127,676  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        45  |           49,654,497  |           28,937,634  |    0.000372  |        1,743,065,310  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        46  |           47,083,425  |           27,111,994  |    0.000295  |        1,770,177,304  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        47  |           44,390,482  |           25,256,447  |    0.000329  |        1,795,433,752  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        48  |           37,804,969  |           21,253,002  |    0.000346  |        1,816,686,753  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        49  |           32,824,292  |           18,232,900  |    0.000362  |        1,834,919,653  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        50  |           33,837,174  |           18,571,349  |    0.000322  |        1,853,491,002  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        51  |           43,498,407  |           23,589,118  |    0.000310  |        1,877,080,120  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        52  |           42,631,338  |           22,843,166  |    0.000331  |        1,899,923,286  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        53  |           44,306,666  |           23,457,698  |    0.000344  |        1,923,380,985  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        54  |           42,894,091  |           22,438,963  |    0.000309  |        1,945,819,948  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        55  |           44,333,131  |           22,915,150  |    0.000362  |        1,968,735,098  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        56  |           41,773,547  |           21,334,607  |    0.000353  |        1,990,069,705  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        57  |           32,163,097  |           16,230,434  |    0.000403  |        2,006,300,139  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        58  |           43,687,948  |           21,783,262  |    0.000286  |        2,028,083,401  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        59  |           31,142,392  |           15,342,715  |    0.000370  |        2,043,426,116  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        60  |           41,587,787  |           20,244,406  |    0.000340  |        2,063,670,522  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        61  |           29,644,596  |           14,258,497  |    0.000360  |        2,077,929,019  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        62  |           33,246,145  |           15,800,052  |    0.000351  |        2,093,729,071  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        63  |           45,941,372  |           21,572,981  |    0.000187  |        2,115,302,052  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        64  |           31,040,987  |           14,402,262  |    0.000378  |        2,129,704,314  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        65  |           36,685,611  |           16,818,216  |    0.000305  |        2,146,522,530  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        66  |           32,280,670  |           14,622,300  |    0.000309  |        2,161,144,831  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        67  |           36,175,117  |           16,190,941  |    0.000289  |        2,177,335,772  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        68  |           41,689,712  |           18,436,566  |    0.000225  |        2,195,772,338  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        69  |           33,121,298  |           14,472,630  |    0.000328  |        2,210,244,968  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        70  |           31,723,450  |           13,696,498  |    0.000304  |        2,223,941,466  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        71  |           34,611,159  |           14,765,027  |    0.000305  |        2,238,706,493  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        72  |           43,508,094  |           18,339,063  |    0.000259  |        2,257,045,556  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        73  |           20,753,642  |            8,643,515  |    0.000465  |        2,265,689,071  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        74  |           20,387,623  |            8,389,801  |    0.000404  |        2,274,078,872  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        75  |           37,321,872  |           15,175,306  |    0.000340  |        2,289,254,178  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        76  |           34,527,864  |           13,871,798  |    0.000345  |        2,303,125,976  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        77  |           33,990,591  |           13,493,069  |    0.000284  |        2,316,619,045  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        78  |           31,790,167  |           12,469,063  |    0.000283  |        2,329,088,108  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        79  |           21,396,054  |            8,292,084  |    0.000317  |        2,337,380,191  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        80  |           32,223,118  |           12,339,187  |    0.000313  |        2,349,719,378  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        81  |           29,535,780  |           11,175,229  |    0.000350  |        2,360,894,607  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        82  |           22,697,664  |            8,485,513  |    0.000391  |        2,369,380,120  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        83  |           32,022,429  |           11,828,787  |    0.000314  |        2,381,208,908  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        84  |           32,144,281  |           11,732,178  |    0.000317  |        2,392,941,086  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        85  |           28,041,462  |           10,112,641  |    0.000353  |        2,403,053,726  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        86  |           25,246,048  |            8,995,935  |    0.000369  |        2,412,049,661  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        87  |           18,985,667  |            6,684,482  |    0.000405  |        2,418,734,143  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        88  |           29,957,676  |           10,421,710  |    0.000326  |        2,429,155,854  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        89  |           25,951,392  |            8,920,322  |    0.000462  |        2,438,076,176  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        90  |           29,235,048  |            9,929,164  |    0.000471  |        2,448,005,339  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        91  |           20,896,448  |            7,012,459  |    0.000548  |        2,455,017,798  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        92  |           25,022,853  |            8,297,049  |    0.000477  |        2,463,314,847  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        93  |           28,095,567  |            9,204,784  |    0.000494  |        2,472,519,631  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        94  |           23,115,190  |            7,482,768  |    0.000491  |        2,480,002,399  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        95  |           20,707,112  |            6,623,283  |    0.000369  |        2,486,625,682  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        96  |           18,700,207  |            5,910,023  |    0.000432  |        2,492,535,706  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        97  |           25,972,612  |            8,110,496  |    0.000348  |        2,500,646,201  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        98  |           14,661,184  |            4,523,658  |    0.000420  |        2,505,169,860  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |        99  |           21,325,129  |            6,501,318  |    0.000415  |        2,511,671,178  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       100  |           17,563,495  |            5,290,658  |    0.000352  |        2,516,961,836  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       101  |           23,417,830  |            6,970,025  |    0.000346  |        2,523,931,861  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       102  |           22,067,738  |            6,489,848  |    0.000239  |        2,530,421,709  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       103  |           23,770,340  |            6,907,185  |    0.000240  |        2,537,328,894  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       104  |           13,120,118  |            3,766,972  |    0.000247  |        2,541,095,866  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       105  |           19,123,851  |            5,425,241  |    0.000174  |        2,546,521,107  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       106  |            8,941,835  |            2,506,452  |    0.000145  |        2,549,027,559  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       107  |            8,857,245  |            2,453,129  |    0.000217  |        2,551,480,687  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       108  |            4,251,912  |            1,163,576  |    0.000155  |        2,552,644,263  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       109  |            3,957,835  |            1,070,181  |    0.000160  |        2,553,714,445  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       110  |            7,431,442  |            1,985,463  |    0.000145  |        2,555,699,907  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       111  |           19,165,299  |            5,059,332  |    0.000142  |        2,560,759,239  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       112  |            9,392,731  |            2,449,957  |    0.000105  |        2,563,209,196  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       113  |            7,639,941  |            1,968,999  |    0.000104  |        2,565,178,196  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       114  |            5,917,594  |            1,506,918  |    0.000115  |        2,566,685,114  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       115  |            8,617,193  |            2,168,200  |   0.0000896  |        2,568,853,314  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       116  |            7,768,264  |            1,931,286  |    0.000101  |        2,570,784,600  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       117  |           11,953,615  |            2,936,370  |    0.000106  |        2,573,720,970  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       118  |            8,719,148  |            2,116,287  |   0.0000804  |        2,575,837,257  |       1,118  |
+2022-02-08 22:18:16 - REPORT - |       1  |       119  |           13,200,459  |            3,165,764  |   0.0000840  |        2,579,003,021  |       1,118  |
+2022-02-08 22:18:16 - REPORT - +-----------------------------------------------------------------------------------------------------------------------------+
+2022-02-08 22:18:16 - INFO - Checking solution out_cmpWcmp_9Feb_Agricola60 feasibility for 120 periods.
+2022-02-08 22:18:16 - INFO - Checking solution EmptySolution feasibility for 120 periods.
+2022-02-08 22:18:16 - INFO - Solution 'out_cmpWcmp_9Feb_Agricola60' is being saved. Its value is 2579003020.504392. This is the best solution found so far.
+2022-02-08 22:18:16 - INFO - Best solution so far: 'out_cmpWcmp_9Feb_Agricola60'.
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Execution of the engine: 1,118 seconds.
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - -------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT - -------------------- DISPLAYING IP SOLUTION INFO ------------------------
+2022-02-08 22:18:16 - REPORT - -------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT - Objective value
+2022-02-08 22:18:16 - REPORT -      t     Undisc. Cash[t]       Disc. Cash[t]        Perc[t]         Acc[t]
+2022-02-08 22:18:16 - REPORT - ----------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT -      0          38,131,283          38,131,283         1.48 %         1.48 %
+2022-02-08 22:18:16 - REPORT -      1          39,367,316          38,897,778         1.51 %         2.99 %
+2022-02-08 22:18:16 - REPORT -      2          49,018,642          47,856,315         1.86 %         4.84 %
+2022-02-08 22:18:16 - REPORT -      3          51,733,239          49,904,146         1.94 %         6.78 %
+2022-02-08 22:18:16 - REPORT -      4          51,665,499          49,244,369         1.91 %         8.69 %
+2022-02-08 22:18:16 - REPORT -      5          48,750,444          45,911,715         1.78 %        10.47 %
+2022-02-08 22:18:16 - REPORT -      6          45,721,442          42,545,521         1.65 %        12.12 %
+2022-02-08 22:18:16 - REPORT -      7          51,595,043          47,438,494         1.84 %        13.96 %
+2022-02-08 22:18:16 - REPORT -      8          47,661,106          43,298,815         1.68 %        15.64 %
+2022-02-08 22:18:16 - REPORT -      9          54,341,206          48,778,693         1.89 %        17.53 %
+2022-02-08 22:18:16 - REPORT -     10          52,602,244          46,654,565         1.81 %        19.34 %
+2022-02-08 22:18:16 - REPORT -     11          49,976,188          43,796,760         1.70 %        21.03 %
+2022-02-08 22:18:16 - REPORT -     12          43,741,659          37,875,912         1.47 %        22.50 %
+2022-02-08 22:18:16 - REPORT -     13          50,249,148          42,991,791         1.67 %        24.17 %
+2022-02-08 22:18:16 - REPORT -     14          40,653,956          34,367,555         1.33 %        25.50 %
+2022-02-08 22:18:16 - REPORT -     15          45,929,596          38,364,314         1.49 %        26.99 %
+2022-02-08 22:18:16 - REPORT -     16          48,763,604          40,245,710         1.56 %        28.55 %
+2022-02-08 22:18:16 - REPORT -     17          57,499,697          46,889,796         1.82 %        30.37 %
+2022-02-08 22:18:16 - REPORT -     18          60,236,169          48,535,456         1.88 %        32.25 %
+2022-02-08 22:18:16 - REPORT -     19          58,173,309          46,314,238         1.80 %        34.05 %
+2022-02-08 22:18:16 - REPORT -     20          63,376,326          49,854,780         1.93 %        35.98 %
+2022-02-08 22:18:16 - REPORT -     21          55,826,669          43,392,078         1.68 %        37.66 %
+2022-02-08 22:18:16 - REPORT -     22          52,080,435          39,997,452         1.55 %        39.21 %
+2022-02-08 22:18:16 - REPORT -     23          66,263,780          50,283,201         1.95 %        41.16 %
+2022-02-08 22:18:16 - REPORT -     24          52,751,199          39,551,962         1.53 %        42.70 %
+2022-02-08 22:18:16 - REPORT -     25          45,098,498          33,410,791         1.30 %        43.99 %
+2022-02-08 22:18:16 - REPORT -     26          41,682,289          30,511,617         1.18 %        45.17 %
+2022-02-08 22:18:16 - REPORT -     27          46,120,366          33,357,647         1.29 %        46.47 %
+2022-02-08 22:18:16 - REPORT -     28          51,963,830          37,135,801         1.44 %        47.91 %
+2022-02-08 22:18:16 - REPORT -     29          51,024,214          36,029,394         1.40 %        49.30 %
+2022-02-08 22:18:16 - REPORT -     30          51,636,300          36,026,721         1.40 %        50.70 %
+2022-02-08 22:18:16 - REPORT -     31          45,590,497          31,429,172         1.22 %        51.92 %
+2022-02-08 22:18:16 - REPORT -     32          44,397,482          30,241,681         1.17 %        53.09 %
+2022-02-08 22:18:16 - REPORT -     33          48,293,189          32,502,926         1.26 %        54.35 %
+2022-02-08 22:18:16 - REPORT -     34          51,915,627          34,524,204         1.34 %        55.69 %
+2022-02-08 22:18:16 - REPORT -     35          55,335,176          36,359,328         1.41 %        57.10 %
+2022-02-08 22:18:16 - REPORT -     36          54,195,174          35,185,535         1.36 %        58.47 %
+2022-02-08 22:18:16 - REPORT -     37          50,171,971          32,185,013         1.25 %        59.71 %
+2022-02-08 22:18:16 - REPORT -     38          39,833,084          25,247,911         0.98 %        60.69 %
+2022-02-08 22:18:16 - REPORT -     39          41,265,815          25,844,071         1.00 %        61.69 %
+2022-02-08 22:18:16 - REPORT -     40          47,900,380          29,641,382         1.15 %        62.84 %
+2022-02-08 22:18:16 - REPORT -     41          28,736,332          17,570,326         0.68 %        63.53 %
+2022-02-08 22:18:16 - REPORT -     42          34,636,483          20,925,279         0.81 %        64.34 %
+2022-02-08 22:18:16 - REPORT -     43          46,215,319          27,587,504         1.07 %        65.41 %
+2022-02-08 22:18:16 - REPORT -     44          46,266,538          27,288,675         1.06 %        66.46 %
+2022-02-08 22:18:16 - REPORT -     45          49,654,497          28,937,634         1.12 %        67.59 %
+2022-02-08 22:18:16 - REPORT -     46          47,083,425          27,111,994         1.05 %        68.64 %
+2022-02-08 22:18:16 - REPORT -     47          44,390,482          25,256,447         0.98 %        69.62 %
+2022-02-08 22:18:16 - REPORT -     48          37,804,969          21,253,002         0.82 %        70.44 %
+2022-02-08 22:18:16 - REPORT -     49          32,824,292          18,232,900         0.71 %        71.15 %
+2022-02-08 22:18:16 - REPORT -     50          33,837,174          18,571,349         0.72 %        71.87 %
+2022-02-08 22:18:16 - REPORT -     51          43,498,407          23,589,118         0.91 %        72.78 %
+2022-02-08 22:18:16 - REPORT -     52          42,631,338          22,843,166         0.89 %        73.67 %
+2022-02-08 22:18:16 - REPORT -     53          44,306,666          23,457,698         0.91 %        74.58 %
+2022-02-08 22:18:16 - REPORT -     54          42,894,091          22,438,963         0.87 %        75.45 %
+2022-02-08 22:18:16 - REPORT -     55          44,333,131          22,915,150         0.89 %        76.34 %
+2022-02-08 22:18:16 - REPORT -     56          41,773,547          21,334,607         0.83 %        77.16 %
+2022-02-08 22:18:16 - REPORT -     57          32,163,097          16,230,434         0.63 %        77.79 %
+2022-02-08 22:18:16 - REPORT -     58          43,687,948          21,783,262         0.84 %        78.64 %
+2022-02-08 22:18:16 - REPORT -     59          31,142,392          15,342,715         0.59 %        79.23 %
+2022-02-08 22:18:16 - REPORT -     60          41,587,787          20,244,406         0.78 %        80.02 %
+2022-02-08 22:18:16 - REPORT -     61          29,644,596          14,258,497         0.55 %        80.57 %
+2022-02-08 22:18:16 - REPORT -     62          33,246,145          15,800,052         0.61 %        81.18 %
+2022-02-08 22:18:16 - REPORT -     63          45,941,372          21,572,981         0.84 %        82.02 %
+2022-02-08 22:18:16 - REPORT -     64          31,040,987          14,402,262         0.56 %        82.58 %
+2022-02-08 22:18:16 - REPORT -     65          36,685,611          16,818,216         0.65 %        83.23 %
+2022-02-08 22:18:16 - REPORT -     66          32,280,670          14,622,300         0.57 %        83.80 %
+2022-02-08 22:18:16 - REPORT -     67          36,175,117          16,190,941         0.63 %        84.43 %
+2022-02-08 22:18:16 - REPORT -     68          41,689,712          18,436,566         0.71 %        85.14 %
+2022-02-08 22:18:16 - REPORT -     69          33,121,298          14,472,630         0.56 %        85.70 %
+2022-02-08 22:18:16 - REPORT -     70          31,723,450          13,696,498         0.53 %        86.23 %
+2022-02-08 22:18:16 - REPORT -     71          34,611,159          14,765,027         0.57 %        86.81 %
+2022-02-08 22:18:16 - REPORT -     72          43,508,094          18,339,063         0.71 %        87.52 %
+2022-02-08 22:18:16 - REPORT -     73          20,753,642           8,643,515         0.34 %        87.85 %
+2022-02-08 22:18:16 - REPORT -     74          20,387,623           8,389,801         0.33 %        88.18 %
+2022-02-08 22:18:16 - REPORT -     75          37,321,872          15,175,306         0.59 %        88.77 %
+2022-02-08 22:18:16 - REPORT -     76          34,527,864          13,871,798         0.54 %        89.30 %
+2022-02-08 22:18:16 - REPORT -     77          33,990,591          13,493,069         0.52 %        89.83 %
+2022-02-08 22:18:16 - REPORT -     78          31,790,167          12,469,063         0.48 %        90.31 %
+2022-02-08 22:18:16 - REPORT -     79          21,396,054           8,292,084         0.32 %        90.63 %
+2022-02-08 22:18:16 - REPORT -     80          32,223,118          12,339,187         0.48 %        91.11 %
+2022-02-08 22:18:16 - REPORT -     81          29,535,780          11,175,229         0.43 %        91.54 %
+2022-02-08 22:18:16 - REPORT -     82          22,697,664           8,485,513         0.33 %        91.87 %
+2022-02-08 22:18:16 - REPORT -     83          32,022,429          11,828,787         0.46 %        92.33 %
+2022-02-08 22:18:16 - REPORT -     84          32,144,281          11,732,178         0.45 %        92.79 %
+2022-02-08 22:18:16 - REPORT -     85          28,041,462          10,112,641         0.39 %        93.18 %
+2022-02-08 22:18:16 - REPORT -     86          25,246,048           8,995,935         0.35 %        93.53 %
+2022-02-08 22:18:16 - REPORT -     87          18,985,667           6,684,482         0.26 %        93.79 %
+2022-02-08 22:18:16 - REPORT -     88          29,957,676          10,421,710         0.40 %        94.19 %
+2022-02-08 22:18:16 - REPORT -     89          25,951,392           8,920,322         0.35 %        94.54 %
+2022-02-08 22:18:16 - REPORT -     90          29,235,048           9,929,164         0.39 %        94.92 %
+2022-02-08 22:18:16 - REPORT -     91          20,896,448           7,012,459         0.27 %        95.19 %
+2022-02-08 22:18:16 - REPORT -     92          25,022,853           8,297,049         0.32 %        95.51 %
+2022-02-08 22:18:16 - REPORT -     93          28,095,567           9,204,784         0.36 %        95.87 %
+2022-02-08 22:18:16 - REPORT -     94          23,115,190           7,482,768         0.29 %        96.16 %
+2022-02-08 22:18:16 - REPORT -     95          20,707,112           6,623,283         0.26 %        96.42 %
+2022-02-08 22:18:16 - REPORT -     96          18,700,207           5,910,023         0.23 %        96.65 %
+2022-02-08 22:18:16 - REPORT -     97          25,972,612           8,110,496         0.31 %        96.96 %
+2022-02-08 22:18:16 - REPORT -     98          14,661,184           4,523,658         0.18 %        97.14 %
+2022-02-08 22:18:16 - REPORT -     99          21,325,129           6,501,318         0.25 %        97.39 %
+2022-02-08 22:18:16 - REPORT -    100          17,563,495           5,290,658         0.21 %        97.59 %
+2022-02-08 22:18:16 - REPORT -    101          23,417,830           6,970,025         0.27 %        97.86 %
+2022-02-08 22:18:16 - REPORT -    102          22,067,738           6,489,848         0.25 %        98.12 %
+2022-02-08 22:18:16 - REPORT -    103          23,770,340           6,907,185         0.27 %        98.38 %
+2022-02-08 22:18:16 - REPORT -    104          13,120,118           3,766,972         0.15 %        98.53 %
+2022-02-08 22:18:16 - REPORT -    105          19,123,851           5,425,241         0.21 %        98.74 %
+2022-02-08 22:18:16 - REPORT -    106           8,941,835           2,506,452         0.10 %        98.84 %
+2022-02-08 22:18:16 - REPORT -    107           8,857,245           2,453,129         0.10 %        98.93 %
+2022-02-08 22:18:16 - REPORT -    108           4,251,912           1,163,576         0.05 %        98.98 %
+2022-02-08 22:18:16 - REPORT -    109           3,957,835           1,070,181         0.04 %        99.02 %
+2022-02-08 22:18:16 - REPORT -    110           7,431,442           1,985,463         0.08 %        99.10 %
+2022-02-08 22:18:16 - REPORT -    111          19,165,299           5,059,332         0.20 %        99.29 %
+2022-02-08 22:18:16 - REPORT -    112           9,392,731           2,449,957         0.09 %        99.39 %
+2022-02-08 22:18:16 - REPORT -    113           7,639,941           1,968,999         0.08 %        99.46 %
+2022-02-08 22:18:16 - REPORT -    114           5,917,594           1,506,918         0.06 %        99.52 %
+2022-02-08 22:18:16 - REPORT -    115           8,617,193           2,168,200         0.08 %        99.61 %
+2022-02-08 22:18:16 - REPORT -    116           7,768,264           1,931,286         0.07 %        99.68 %
+2022-02-08 22:18:16 - REPORT -    117          11,953,615           2,936,370         0.11 %        99.80 %
+2022-02-08 22:18:16 - REPORT -    118           8,719,148           2,116,287         0.08 %        99.88 %
+2022-02-08 22:18:16 - REPORT -    119          13,200,459           3,165,764         0.12 %       100.00 %
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Total value: 2,579,003,021
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Capacity Constraint constraint0
+2022-02-08 22:18:16 - REPORT - Time subdivision: GAMMA_ALL_PERIODS
+2022-02-08 22:18:16 - REPORT -      i            Usage[i]     Sense         Capacity[i]          Rel. Diff.
+2022-02-08 22:18:16 - REPORT - ----------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT -      0             348,580        <=             360,000             0.03172
+2022-02-08 22:18:16 - REPORT -      1             357,588        <=             360,000            0.006700
+2022-02-08 22:18:16 - REPORT -      2             359,923        <=             360,000           0.0002139
+2022-02-08 22:18:16 - REPORT -      3             359,559        <=             360,000            0.001225
+2022-02-08 22:18:16 - REPORT -      4             357,916        <=             360,000            0.005789
+2022-02-08 22:18:16 - REPORT -      5             358,832        <=             360,000            0.003244
+2022-02-08 22:18:16 - REPORT -      6             359,290        <=             360,000            0.001972
+2022-02-08 22:18:16 - REPORT -      7             359,965        <=             360,000          0.00009722
+2022-02-08 22:18:16 - REPORT -      8             358,372        <=             360,000            0.004522
+2022-02-08 22:18:16 - REPORT -      9             357,654        <=             360,000            0.006517
+2022-02-08 22:18:16 - REPORT -     10             358,170        <=             360,000            0.005083
+2022-02-08 22:18:16 - REPORT -     11             355,859        <=             360,000             0.01150
+2022-02-08 22:18:16 - REPORT -     12             358,965        <=             360,000            0.002875
+2022-02-08 22:18:16 - REPORT -     13             355,341        <=             360,000             0.01294
+2022-02-08 22:18:16 - REPORT -     14             345,459        <=             360,000             0.04039
+2022-02-08 22:18:16 - REPORT -     15             357,900        <=             360,000            0.005833
+2022-02-08 22:18:16 - REPORT -     16             359,554        <=             360,000            0.001239
+2022-02-08 22:18:16 - REPORT -     17             358,372        <=             360,000            0.004522
+2022-02-08 22:18:16 - REPORT -     18             358,319        <=             360,000            0.004669
+2022-02-08 22:18:16 - REPORT -     19             359,620        <=             360,000            0.001056
+2022-02-08 22:18:16 - REPORT -     20             358,252        <=             360,000            0.004856
+2022-02-08 22:18:16 - REPORT -     21             357,258        <=             360,000            0.007617
+2022-02-08 22:18:16 - REPORT -     22             359,967        <=             360,000          0.00009167
+2022-02-08 22:18:16 - REPORT -     23             358,909        <=             360,000            0.003031
+2022-02-08 22:18:16 - REPORT -     24             357,716        <=             360,000            0.006344
+2022-02-08 22:18:16 - REPORT -     25             358,589        <=             360,000            0.003919
+2022-02-08 22:18:16 - REPORT -     26             358,924        <=             360,000            0.002989
+2022-02-08 22:18:16 - REPORT -     27             359,526        <=             360,000            0.001317
+2022-02-08 22:18:16 - REPORT -     28             358,630        <=             360,000            0.003806
+2022-02-08 22:18:16 - REPORT -     29             359,993        <=             360,000          0.00001944
+2022-02-08 22:18:16 - REPORT -     30             359,710        <=             360,000           0.0008056
+2022-02-08 22:18:16 - REPORT -     31             357,644        <=             360,000            0.006544
+2022-02-08 22:18:16 - REPORT -     32             359,248        <=             360,000            0.002089
+2022-02-08 22:18:16 - REPORT -     33             358,850        <=             360,000            0.003194
+2022-02-08 22:18:16 - REPORT -     34             359,383        <=             360,000            0.001714
+2022-02-08 22:18:16 - REPORT -     35             359,005        <=             360,000            0.002764
+2022-02-08 22:18:16 - REPORT -     36             359,708        <=             360,000           0.0008111
+2022-02-08 22:18:16 - REPORT -     37             359,568        <=             360,000            0.001200
+2022-02-08 22:18:16 - REPORT -     38             359,451        <=             360,000            0.001525
+2022-02-08 22:18:16 - REPORT -     39             359,568        <=             360,000            0.001200
+2022-02-08 22:18:16 - REPORT -     40             359,603        <=             360,000            0.001103
+2022-02-08 22:18:16 - REPORT -     41             359,775        <=             360,000           0.0006250
+2022-02-08 22:18:16 - REPORT -     42             353,115        <=             360,000             0.01912
+2022-02-08 22:18:16 - REPORT -     43             358,594        <=             360,000            0.003906
+2022-02-08 22:18:16 - REPORT -     44             356,647        <=             360,000            0.009314
+2022-02-08 22:18:16 - REPORT -     45             355,192        <=             360,000             0.01336
+2022-02-08 22:18:16 - REPORT -     46             356,979        <=             360,000            0.008392
+2022-02-08 22:18:16 - REPORT -     47             354,362        <=             360,000             0.01566
+2022-02-08 22:18:16 - REPORT -     48             356,595        <=             360,000            0.009458
+2022-02-08 22:18:16 - REPORT -     49             357,201        <=             360,000            0.007775
+2022-02-08 22:18:16 - REPORT -     50             347,867        <=             360,000             0.03370
+2022-02-08 22:18:16 - REPORT -     51             344,346        <=             360,000             0.04348
+2022-02-08 22:18:16 - REPORT -     52             358,045        <=             360,000            0.005431
+2022-02-08 22:18:16 - REPORT -     53             359,816        <=             360,000           0.0005111
+2022-02-08 22:18:16 - REPORT -     54             359,071        <=             360,000            0.002581
+2022-02-08 22:18:16 - REPORT -     55             358,785        <=             360,000            0.003375
+2022-02-08 22:18:16 - REPORT -     56             359,001        <=             360,000            0.002775
+2022-02-08 22:18:16 - REPORT -     57             340,793        <=             360,000             0.05335
+2022-02-08 22:18:16 - REPORT -     58             359,519        <=             360,000            0.001336
+2022-02-08 22:18:16 - REPORT -     59             356,412        <=             360,000            0.009967
+2022-02-08 22:18:16 - REPORT -     60             359,933        <=             360,000           0.0001861
+2022-02-08 22:18:16 - REPORT -     61             301,964        <=             360,000              0.1612
+2022-02-08 22:18:16 - REPORT -     62             353,593        <=             360,000             0.01780
+2022-02-08 22:18:16 - REPORT -     63             359,611        <=             360,000            0.001081
+2022-02-08 22:18:16 - REPORT -     64             358,972        <=             360,000            0.002856
+2022-02-08 22:18:16 - REPORT -     65             359,915        <=             360,000           0.0002361
+2022-02-08 22:18:16 - REPORT -     66             359,852        <=             360,000           0.0004111
+2022-02-08 22:18:16 - REPORT -     67             359,831        <=             360,000           0.0004694
+2022-02-08 22:18:16 - REPORT -     68             359,595        <=             360,000            0.001125
+2022-02-08 22:18:16 - REPORT -     69             359,770        <=             360,000           0.0006389
+2022-02-08 22:18:16 - REPORT -     70             359,819        <=             360,000           0.0005028
+2022-02-08 22:18:16 - REPORT -     71             360,000        <=             360,000              -0.000
+2022-02-08 22:18:16 - REPORT -     72             359,449        <=             360,000            0.001531
+2022-02-08 22:18:16 - REPORT -     73             359,686        <=             360,000           0.0008722
+2022-02-08 22:18:16 - REPORT -     74             359,651        <=             360,000           0.0009694
+2022-02-08 22:18:16 - REPORT -     75             359,231        <=             360,000            0.002136
+2022-02-08 22:18:16 - REPORT -     76             358,713        <=             360,000            0.003575
+2022-02-08 22:18:16 - REPORT -     77             359,129        <=             360,000            0.002419
+2022-02-08 22:18:16 - REPORT -     78             358,593        <=             360,000            0.003908
+2022-02-08 22:18:16 - REPORT -     79             357,716        <=             360,000            0.006344
+2022-02-08 22:18:16 - REPORT -     80             359,933        <=             360,000           0.0001861
+2022-02-08 22:18:16 - REPORT -     81             359,815        <=             360,000           0.0005139
+2022-02-08 22:18:16 - REPORT -     82             359,734        <=             360,000           0.0007389
+2022-02-08 22:18:16 - REPORT -     83             359,052        <=             360,000            0.002633
+2022-02-08 22:18:16 - REPORT -     84             359,316        <=             360,000            0.001900
+2022-02-08 22:18:16 - REPORT -     85             359,632        <=             360,000            0.001022
+2022-02-08 22:18:16 - REPORT -     86             359,881        <=             360,000           0.0003306
+2022-02-08 22:18:16 - REPORT -     87             359,982        <=             360,000          0.00005000
+2022-02-08 22:18:16 - REPORT -     88             359,353        <=             360,000            0.001797
+2022-02-08 22:18:16 - REPORT -     89             359,685        <=             360,000           0.0008750
+2022-02-08 22:18:16 - REPORT -     90             359,351        <=             360,000            0.001803
+2022-02-08 22:18:16 - REPORT -     91             346,077        <=             360,000             0.03868
+2022-02-08 22:18:16 - REPORT -     92             359,707        <=             360,000           0.0008139
+2022-02-08 22:18:16 - REPORT -     93             359,583        <=             360,000            0.001158
+2022-02-08 22:18:16 - REPORT -     94             359,872        <=             360,000           0.0003556
+2022-02-08 22:18:16 - REPORT -     95             359,708        <=             360,000           0.0008111
+2022-02-08 22:18:16 - REPORT -     96             345,523        <=             360,000             0.04021
+2022-02-08 22:18:16 - REPORT -     97             359,927        <=             360,000           0.0002028
+2022-02-08 22:18:16 - REPORT -     98             353,903        <=             360,000             0.01694
+2022-02-08 22:18:16 - REPORT -     99             359,418        <=             360,000            0.001617
+2022-02-08 22:18:16 - REPORT -    100             319,660        <=             360,000              0.1121
+2022-02-08 22:18:16 - REPORT -    101             313,202        <=             360,000              0.1300
+2022-02-08 22:18:16 - REPORT -    102             287,220        <=             360,000              0.2022
+2022-02-08 22:18:16 - REPORT -    103             271,739        <=             360,000              0.2452
+2022-02-08 22:18:16 - REPORT -    104             208,045        <=             360,000              0.4221
+2022-02-08 22:18:16 - REPORT -    105             218,691        <=             360,000              0.3925
+2022-02-08 22:18:16 - REPORT -    106             138,267        <=             360,000              0.6159
+2022-02-08 22:18:16 - REPORT -    107             163,935        <=             360,000              0.5446
+2022-02-08 22:18:16 - REPORT -    108             120,041        <=             360,000              0.6666
+2022-02-08 22:18:16 - REPORT -    109             121,134        <=             360,000              0.6635
+2022-02-08 22:18:16 - REPORT -    110             119,592        <=             360,000              0.6678
+2022-02-08 22:18:16 - REPORT -    111             204,291        <=             360,000              0.4325
+2022-02-08 22:18:16 - REPORT -    112             113,191        <=             360,000              0.6856
+2022-02-08 22:18:16 - REPORT -    113              97,985        <=             360,000              0.7278
+2022-02-08 22:18:16 - REPORT -    114             108,016        <=             360,000              0.7000
+2022-02-08 22:18:16 - REPORT -    115             100,294        <=             360,000              0.7214
+2022-02-08 22:18:16 - REPORT -    116             105,748        <=             360,000              0.7063
+2022-02-08 22:18:16 - REPORT -    117             144,171        <=             360,000              0.5995
+2022-02-08 22:18:16 - REPORT -    118              76,074        <=             360,000              0.7887
+2022-02-08 22:18:16 - REPORT -    119             117,349        <=             360,000              0.6740
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Capacity Constraint constraint1
+2022-02-08 22:18:16 - REPORT - Time subdivision: GAMMA_ALL_PERIODS
+2022-02-08 22:18:16 - REPORT -      i            Usage[i]     Sense         Capacity[i]          Rel. Diff.
+2022-02-08 22:18:16 - REPORT - ----------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT -      0             181,341        <=             192,000             0.05552
+2022-02-08 22:18:16 - REPORT -      1             163,831        <=             192,000              0.1467
+2022-02-08 22:18:16 - REPORT -      2             176,861        <=             192,000             0.07885
+2022-02-08 22:18:16 - REPORT -      3             175,722        <=             192,000             0.08478
+2022-02-08 22:18:16 - REPORT -      4             187,361        <=             192,000             0.02416
+2022-02-08 22:18:16 - REPORT -      5             181,734        <=             192,000             0.05347
+2022-02-08 22:18:16 - REPORT -      6             169,530        <=             192,000              0.1170
+2022-02-08 22:18:16 - REPORT -      7             173,472        <=             192,000             0.09650
+2022-02-08 22:18:16 - REPORT -      8             172,550        <=             192,000              0.1013
+2022-02-08 22:18:16 - REPORT -      9             178,283        <=             192,000             0.07144
+2022-02-08 22:18:16 - REPORT -     10             183,079        <=             192,000             0.04646
+2022-02-08 22:18:16 - REPORT -     11             178,614        <=             192,000             0.06972
+2022-02-08 22:18:16 - REPORT -     12             183,031        <=             192,000             0.04671
+2022-02-08 22:18:16 - REPORT -     13             178,992        <=             192,000             0.06775
+2022-02-08 22:18:16 - REPORT -     14             172,521        <=             192,000              0.1015
+2022-02-08 22:18:16 - REPORT -     15             180,572        <=             192,000             0.05952
+2022-02-08 22:18:16 - REPORT -     16             184,597        <=             192,000             0.03856
+2022-02-08 22:18:16 - REPORT -     17             182,057        <=             192,000             0.05179
+2022-02-08 22:18:16 - REPORT -     18             184,120        <=             192,000             0.04104
+2022-02-08 22:18:16 - REPORT -     19             184,439        <=             192,000             0.03938
+2022-02-08 22:18:16 - REPORT -     20             183,635        <=             192,000             0.04357
+2022-02-08 22:18:16 - REPORT -     21             177,750        <=             192,000             0.07422
+2022-02-08 22:18:16 - REPORT -     22             176,855        <=             192,000             0.07888
+2022-02-08 22:18:16 - REPORT -     23             184,568        <=             192,000             0.03871
+2022-02-08 22:18:16 - REPORT -     24             176,421        <=             192,000             0.08114
+2022-02-08 22:18:16 - REPORT -     25             176,448        <=             192,000             0.08100
+2022-02-08 22:18:16 - REPORT -     26             162,503        <=             192,000              0.1536
+2022-02-08 22:18:16 - REPORT -     27             177,639        <=             192,000             0.07480
+2022-02-08 22:18:16 - REPORT -     28             176,731        <=             192,000             0.07953
+2022-02-08 22:18:16 - REPORT -     29             182,232        <=             192,000             0.05087
+2022-02-08 22:18:16 - REPORT -     30             188,514        <=             192,000             0.01816
+2022-02-08 22:18:16 - REPORT -     31             173,629        <=             192,000             0.09568
+2022-02-08 22:18:16 - REPORT -     32             181,429        <=             192,000             0.05506
+2022-02-08 22:18:16 - REPORT -     33             186,830        <=             192,000             0.02693
+2022-02-08 22:18:16 - REPORT -     34             179,716        <=             192,000             0.06398
+2022-02-08 22:18:16 - REPORT -     35             189,510        <=             192,000             0.01297
+2022-02-08 22:18:16 - REPORT -     36             189,927        <=             192,000             0.01080
+2022-02-08 22:18:16 - REPORT -     37             189,056        <=             192,000             0.01533
+2022-02-08 22:18:16 - REPORT -     38             169,351        <=             192,000              0.1180
+2022-02-08 22:18:16 - REPORT -     39             169,411        <=             192,000              0.1177
+2022-02-08 22:18:16 - REPORT -     40             186,420        <=             192,000             0.02906
+2022-02-08 22:18:16 - REPORT -     41             150,005        <=             192,000              0.2187
+2022-02-08 22:18:16 - REPORT -     42             158,366        <=             192,000              0.1752
+2022-02-08 22:18:16 - REPORT -     43             163,036        <=             192,000              0.1509
+2022-02-08 22:18:16 - REPORT -     44             173,570        <=             192,000             0.09599
+2022-02-08 22:18:16 - REPORT -     45             181,970        <=             192,000             0.05224
+2022-02-08 22:18:16 - REPORT -     46             181,738        <=             192,000             0.05345
+2022-02-08 22:18:16 - REPORT -     47             172,301        <=             192,000              0.1026
+2022-02-08 22:18:16 - REPORT -     48             160,078        <=             192,000              0.1663
+2022-02-08 22:18:16 - REPORT -     49             155,924        <=             192,000              0.1879
+2022-02-08 22:18:16 - REPORT -     50             149,437        <=             192,000              0.2217
+2022-02-08 22:18:16 - REPORT -     51             169,704        <=             192,000              0.1161
+2022-02-08 22:18:16 - REPORT -     52             179,721        <=             192,000             0.06395
+2022-02-08 22:18:16 - REPORT -     53             179,002        <=             192,000             0.06770
+2022-02-08 22:18:16 - REPORT -     54             177,136        <=             192,000             0.07742
+2022-02-08 22:18:16 - REPORT -     55             170,814        <=             192,000              0.1103
+2022-02-08 22:18:16 - REPORT -     56             170,534        <=             192,000              0.1118
+2022-02-08 22:18:16 - REPORT -     57             155,286        <=             192,000              0.1912
+2022-02-08 22:18:16 - REPORT -     58             178,077        <=             192,000             0.07252
+2022-02-08 22:18:16 - REPORT -     59             156,527        <=             192,000              0.1848
+2022-02-08 22:18:16 - REPORT -     60             171,857        <=             192,000              0.1049
+2022-02-08 22:18:16 - REPORT -     61             133,418        <=             192,000              0.3051
+2022-02-08 22:18:16 - REPORT -     62             158,929        <=             192,000              0.1722
+2022-02-08 22:18:16 - REPORT -     63             182,311        <=             192,000             0.05046
+2022-02-08 22:18:16 - REPORT -     64             159,635        <=             192,000              0.1686
+2022-02-08 22:18:16 - REPORT -     65             165,503        <=             192,000              0.1380
+2022-02-08 22:18:16 - REPORT -     66             162,728        <=             192,000              0.1525
+2022-02-08 22:18:16 - REPORT -     67             171,632        <=             192,000              0.1061
+2022-02-08 22:18:16 - REPORT -     68             175,878        <=             192,000             0.08397
+2022-02-08 22:18:16 - REPORT -     69             168,462        <=             192,000              0.1226
+2022-02-08 22:18:16 - REPORT -     70             167,824        <=             192,000              0.1259
+2022-02-08 22:18:16 - REPORT -     71             165,199        <=             192,000              0.1396
+2022-02-08 22:18:16 - REPORT -     72             166,229        <=             192,000              0.1342
+2022-02-08 22:18:16 - REPORT -     73             134,897        <=             192,000              0.2974
+2022-02-08 22:18:16 - REPORT -     74             134,654        <=             192,000              0.2987
+2022-02-08 22:18:16 - REPORT -     75             162,571        <=             192,000              0.1533
+2022-02-08 22:18:16 - REPORT -     76             163,226        <=             192,000              0.1499
+2022-02-08 22:18:16 - REPORT -     77             165,005        <=             192,000              0.1406
+2022-02-08 22:18:16 - REPORT -     78             160,563        <=             192,000              0.1637
+2022-02-08 22:18:16 - REPORT -     79             145,983        <=             192,000              0.2397
+2022-02-08 22:18:16 - REPORT -     80             155,384        <=             192,000              0.1907
+2022-02-08 22:18:16 - REPORT -     81             151,099        <=             192,000              0.2130
+2022-02-08 22:18:16 - REPORT -     82             135,143        <=             192,000              0.2961
+2022-02-08 22:18:16 - REPORT -     83             162,808        <=             192,000              0.1520
+2022-02-08 22:18:16 - REPORT -     84             173,874        <=             192,000             0.09441
+2022-02-08 22:18:16 - REPORT -     85             159,711        <=             192,000              0.1682
+2022-02-08 22:18:16 - REPORT -     86             152,154        <=             192,000              0.2075
+2022-02-08 22:18:16 - REPORT -     87             134,931        <=             192,000              0.2972
+2022-02-08 22:18:16 - REPORT -     88             173,577        <=             192,000             0.09595
+2022-02-08 22:18:16 - REPORT -     89             163,790        <=             192,000              0.1469
+2022-02-08 22:18:16 - REPORT -     90             165,280        <=             192,000              0.1392
+2022-02-08 22:18:16 - REPORT -     91             135,629        <=             192,000              0.2936
+2022-02-08 22:18:16 - REPORT -     92             153,362        <=             192,000              0.2012
+2022-02-08 22:18:16 - REPORT -     93             169,064        <=             192,000              0.1195
+2022-02-08 22:18:16 - REPORT -     94             156,060        <=             192,000              0.1872
+2022-02-08 22:18:16 - REPORT -     95             139,602        <=             192,000              0.2729
+2022-02-08 22:18:16 - REPORT -     96             137,750        <=             192,000              0.2826
+2022-02-08 22:18:16 - REPORT -     97             157,102        <=             192,000              0.1818
+2022-02-08 22:18:16 - REPORT -     98             141,119        <=             192,000              0.2650
+2022-02-08 22:18:16 - REPORT -     99             146,162        <=             192,000              0.2387
+2022-02-08 22:18:16 - REPORT -    100             122,703        <=             192,000              0.3609
+2022-02-08 22:18:16 - REPORT -    101             119,429        <=             192,000              0.3780
+2022-02-08 22:18:16 - REPORT -    102             131,423        <=             192,000              0.3155
+2022-02-08 22:18:16 - REPORT -    103             132,973        <=             192,000              0.3074
+2022-02-08 22:18:16 - REPORT -    104              74,596        <=             192,000              0.6115
+2022-02-08 22:18:16 - REPORT -    105             114,305        <=             192,000              0.4047
+2022-02-08 22:18:16 - REPORT -    106              61,107        <=             192,000              0.6817
+2022-02-08 22:18:16 - REPORT -    107              55,380        <=             192,000              0.7116
+2022-02-08 22:18:16 - REPORT -    108              43,275        <=             192,000              0.7746
+2022-02-08 22:18:16 - REPORT -    109              38,313        <=             192,000              0.8005
+2022-02-08 22:18:16 - REPORT -    110              50,486        <=             192,000              0.7371
+2022-02-08 22:18:16 - REPORT -    111             102,654        <=             192,000              0.4653
+2022-02-08 22:18:16 - REPORT -    112              54,187        <=             192,000              0.7178
+2022-02-08 22:18:16 - REPORT -    113              47,709        <=             192,000              0.7515
+2022-02-08 22:18:16 - REPORT -    114              33,971        <=             192,000              0.8231
+2022-02-08 22:18:16 - REPORT -    115              49,282        <=             192,000              0.7433
+2022-02-08 22:18:16 - REPORT -    116              51,236        <=             192,000              0.7331
+2022-02-08 22:18:16 - REPORT -    117              67,104        <=             192,000              0.6505
+2022-02-08 22:18:16 - REPORT -    118              42,765        <=             192,000              0.7773
+2022-02-08 22:18:16 - REPORT -    119              69,955        <=             192,000              0.6357
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Capacity Constraint constraint2
+2022-02-08 22:18:16 - REPORT - Time subdivision: GAMMA_ALL_PERIODS
+2022-02-08 22:18:16 - REPORT -      i            Usage[i]     Sense         Capacity[i]          Rel. Diff.
+2022-02-08 22:18:16 - REPORT - ----------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT -      0               99.00        <=               300.0              0.6700
+2022-02-08 22:18:16 - REPORT -      1               93.00        <=               300.0              0.6900
+2022-02-08 22:18:16 - REPORT -      2               120.0        <=               300.0              0.6000
+2022-02-08 22:18:16 - REPORT -      3               106.0        <=               300.0              0.6467
+2022-02-08 22:18:16 - REPORT -      4               94.00        <=               300.0              0.6867
+2022-02-08 22:18:16 - REPORT -      5               126.0        <=               300.0              0.5800
+2022-02-08 22:18:16 - REPORT -      6               146.0        <=               300.0              0.5133
+2022-02-08 22:18:16 - REPORT -      7               60.00        <=               300.0              0.8000
+2022-02-08 22:18:16 - REPORT -      8               72.00        <=               300.0              0.7600
+2022-02-08 22:18:16 - REPORT -      9               185.0        <=               300.0              0.3833
+2022-02-08 22:18:16 - REPORT -     10               130.0        <=               300.0              0.5667
+2022-02-08 22:18:16 - REPORT -     11               138.0        <=               300.0              0.5400
+2022-02-08 22:18:16 - REPORT -     12               160.0        <=               300.0              0.4667
+2022-02-08 22:18:16 - REPORT -     13               189.0        <=               300.0              0.3700
+2022-02-08 22:18:16 - REPORT -     14               173.0        <=               300.0              0.4233
+2022-02-08 22:18:16 - REPORT -     15               200.0        <=               300.0              0.3333
+2022-02-08 22:18:16 - REPORT -     16               168.0        <=               300.0              0.4400
+2022-02-08 22:18:16 - REPORT -     17               149.0        <=               300.0              0.5033
+2022-02-08 22:18:16 - REPORT -     18               203.0        <=               300.0              0.3233
+2022-02-08 22:18:16 - REPORT -     19               197.0        <=               300.0              0.3433
+2022-02-08 22:18:16 - REPORT -     20               178.0        <=               300.0              0.4067
+2022-02-08 22:18:16 - REPORT -     21               258.0        <=               300.0              0.1400
+2022-02-08 22:18:16 - REPORT -     22               188.0        <=               300.0              0.3733
+2022-02-08 22:18:16 - REPORT -     23               232.0        <=               300.0              0.2267
+2022-02-08 22:18:16 - REPORT -     24               195.0        <=               300.0              0.3500
+2022-02-08 22:18:16 - REPORT -     25               159.0        <=               300.0              0.4700
+2022-02-08 22:18:16 - REPORT -     26               139.0        <=               300.0              0.5367
+2022-02-08 22:18:16 - REPORT -     27               144.0        <=               300.0              0.5200
+2022-02-08 22:18:16 - REPORT -     28               152.0        <=               300.0              0.4933
+2022-02-08 22:18:16 - REPORT -     29               196.0        <=               300.0              0.3467
+2022-02-08 22:18:16 - REPORT -     30               176.0        <=               300.0              0.4133
+2022-02-08 22:18:16 - REPORT -     31               214.0        <=               300.0              0.2867
+2022-02-08 22:18:16 - REPORT -     32               170.0        <=               300.0              0.4333
+2022-02-08 22:18:16 - REPORT -     33               152.0        <=               300.0              0.4933
+2022-02-08 22:18:16 - REPORT -     34               123.0        <=               300.0              0.5900
+2022-02-08 22:18:16 - REPORT -     35               165.0        <=               300.0              0.4500
+2022-02-08 22:18:16 - REPORT -     36               161.0        <=               300.0              0.4633
+2022-02-08 22:18:16 - REPORT -     37               200.0        <=               300.0              0.3333
+2022-02-08 22:18:16 - REPORT -     38               152.0        <=               300.0              0.4933
+2022-02-08 22:18:16 - REPORT -     39               162.0        <=               300.0              0.4600
+2022-02-08 22:18:16 - REPORT -     40               262.0        <=               300.0              0.1267
+2022-02-08 22:18:16 - REPORT -     41               142.0        <=               300.0              0.5267
+2022-02-08 22:18:16 - REPORT -     42               147.0        <=               300.0              0.5100
+2022-02-08 22:18:16 - REPORT -     43               92.00        <=               300.0              0.6933
+2022-02-08 22:18:16 - REPORT -     44               132.0        <=               300.0              0.5600
+2022-02-08 22:18:16 - REPORT -     45               136.0        <=               300.0              0.5467
+2022-02-08 22:18:16 - REPORT -     46               153.0        <=               300.0              0.4900
+2022-02-08 22:18:16 - REPORT -     47               75.00        <=               300.0              0.7500
+2022-02-08 22:18:16 - REPORT -     48               100.0        <=               300.0              0.6667
+2022-02-08 22:18:16 - REPORT -     49               83.00        <=               300.0              0.7233
+2022-02-08 22:18:16 - REPORT -     50               78.00        <=               300.0              0.7400
+2022-02-08 22:18:16 - REPORT -     51               33.00        <=               300.0              0.8900
+2022-02-08 22:18:16 - REPORT -     52               19.00        <=               300.0              0.9367
+2022-02-08 22:18:16 - REPORT -     53               36.00        <=               300.0              0.8800
+2022-02-08 22:18:16 - REPORT -     54               22.00        <=               300.0              0.9267
+2022-02-08 22:18:16 - REPORT -     55               68.00        <=               300.0              0.7733
+2022-02-08 22:18:16 - REPORT -     56               81.00        <=               300.0              0.7300
+2022-02-08 22:18:16 - REPORT -     57               56.00        <=               300.0              0.8133
+2022-02-08 22:18:16 - REPORT -     58               131.0        <=               300.0              0.5633
+2022-02-08 22:18:16 - REPORT -     59               104.0        <=               300.0              0.6533
+2022-02-08 22:18:16 - REPORT -     60               131.0        <=               300.0              0.5633
+2022-02-08 22:18:16 - REPORT -     61               107.0        <=               300.0              0.6433
+2022-02-08 22:18:16 - REPORT -     62               128.0        <=               300.0              0.5733
+2022-02-08 22:18:16 - REPORT -     63               173.0        <=               300.0              0.4233
+2022-02-08 22:18:16 - REPORT -     64               166.0        <=               300.0              0.4467
+2022-02-08 22:18:16 - REPORT -     65               195.0        <=               300.0              0.3500
+2022-02-08 22:18:16 - REPORT -     66               200.0        <=               300.0              0.3333
+2022-02-08 22:18:16 - REPORT -     67               216.0        <=               300.0              0.2800
+2022-02-08 22:18:16 - REPORT -     68               179.0        <=               300.0              0.4033
+2022-02-08 22:18:16 - REPORT -     69               190.0        <=               300.0              0.3667
+2022-02-08 22:18:16 - REPORT -     70               206.0        <=               300.0              0.3133
+2022-02-08 22:18:16 - REPORT -     71               201.0        <=               300.0              0.3300
+2022-02-08 22:18:16 - REPORT -     72               191.0        <=               300.0              0.3633
+2022-02-08 22:18:16 - REPORT -     73               160.0        <=               300.0              0.4667
+2022-02-08 22:18:16 - REPORT -     74               130.0        <=               300.0              0.5667
+2022-02-08 22:18:16 - REPORT -     75               123.0        <=               300.0              0.5900
+2022-02-08 22:18:16 - REPORT -     76               157.0        <=               300.0              0.4767
+2022-02-08 22:18:16 - REPORT -     77               145.0        <=               300.0              0.5167
+2022-02-08 22:18:16 - REPORT -     78               163.0        <=               300.0              0.4567
+2022-02-08 22:18:16 - REPORT -     79               165.0        <=               300.0              0.4500
+2022-02-08 22:18:16 - REPORT -     80               196.0        <=               300.0              0.3467
+2022-02-08 22:18:16 - REPORT -     81               235.0        <=               300.0              0.2167
+2022-02-08 22:18:16 - REPORT -     82               137.0        <=               300.0              0.5433
+2022-02-08 22:18:16 - REPORT -     83               154.0        <=               300.0              0.4867
+2022-02-08 22:18:16 - REPORT -     84               156.0        <=               300.0              0.4800
+2022-02-08 22:18:16 - REPORT -     85               137.0        <=               300.0              0.5433
+2022-02-08 22:18:16 - REPORT -     86               142.0        <=               300.0              0.5267
+2022-02-08 22:18:16 - REPORT -     87               128.0        <=               300.0              0.5733
+2022-02-08 22:18:16 - REPORT -     88               275.0        <=               300.0             0.08333
+2022-02-08 22:18:16 - REPORT -     89               252.0        <=               300.0              0.1600
+2022-02-08 22:18:16 - REPORT -     90               295.0        <=               300.0             0.01667
+2022-02-08 22:18:16 - REPORT -     91               139.0        <=               300.0              0.5367
+2022-02-08 22:18:16 - REPORT -     92               169.0        <=               300.0              0.4367
+2022-02-08 22:18:16 - REPORT -     93               206.0        <=               300.0              0.3133
+2022-02-08 22:18:16 - REPORT -     94               235.0        <=               300.0              0.2167
+2022-02-08 22:18:16 - REPORT -     95               169.0        <=               300.0              0.4367
+2022-02-08 22:18:16 - REPORT -     96               179.0        <=               300.0              0.4033
+2022-02-08 22:18:16 - REPORT -     97               235.0        <=               300.0              0.2167
+2022-02-08 22:18:16 - REPORT -     98               196.0        <=               300.0              0.3467
+2022-02-08 22:18:16 - REPORT -     99               234.0        <=               300.0              0.2200
+2022-02-08 22:18:16 - REPORT -    100               161.0        <=               300.0              0.4633
+2022-02-08 22:18:16 - REPORT -    101               167.0        <=               300.0              0.4433
+2022-02-08 22:18:16 - REPORT -    102               196.0        <=               300.0              0.3467
+2022-02-08 22:18:16 - REPORT -    103               213.0        <=               300.0              0.2900
+2022-02-08 22:18:16 - REPORT -    104               92.00        <=               300.0              0.6933
+2022-02-08 22:18:16 - REPORT -    105               179.0        <=               300.0              0.4033
+2022-02-08 22:18:16 - REPORT -    106               99.00        <=               300.0              0.6700
+2022-02-08 22:18:16 - REPORT -    107               108.0        <=               300.0              0.6400
+2022-02-08 22:18:16 - REPORT -    108               90.00        <=               300.0              0.7000
+2022-02-08 22:18:16 - REPORT -    109               63.00        <=               300.0              0.7900
+2022-02-08 22:18:16 - REPORT -    110               107.0        <=               300.0              0.6433
+2022-02-08 22:18:16 - REPORT -    111               212.0        <=               300.0              0.2933
+2022-02-08 22:18:16 - REPORT -    112               65.00        <=               300.0              0.7833
+2022-02-08 22:18:16 - REPORT -    113               66.00        <=               300.0              0.7800
+2022-02-08 22:18:16 - REPORT -    114               14.00        <=               300.0              0.9533
+2022-02-08 22:18:16 - REPORT -    115               81.00        <=               300.0              0.7300
+2022-02-08 22:18:16 - REPORT -    116               81.00        <=               300.0              0.7300
+2022-02-08 22:18:16 - REPORT -    117               76.00        <=               300.0              0.7467
+2022-02-08 22:18:16 - REPORT -    118               27.00        <=               300.0              0.9100
+2022-02-08 22:18:16 - REPORT -    119               88.00        <=               300.0              0.7067
+2022-02-08 22:18:16 - REPORT - 
+2022-02-08 22:18:16 - REPORT - Capacity Constraint constraint3
+2022-02-08 22:18:16 - REPORT - Time subdivision: GAMMA_ALL_PERIODS
+2022-02-08 22:18:16 - REPORT -      i            Usage[i]     Sense         Capacity[i]          Rel. Diff.
+2022-02-08 22:18:16 - REPORT - ----------------------------------------------------------------------------
+2022-02-08 22:18:16 - REPORT -      0               624.0        <=               4,200              0.8514
+2022-02-08 22:18:16 - REPORT -      1               709.0        <=               4,200              0.8312
+2022-02-08 22:18:16 - REPORT -      2               966.0        <=               4,200              0.7700
+2022-02-08 22:18:16 - REPORT -      3               984.0        <=               4,200              0.7657
+2022-02-08 22:18:16 - REPORT -      4               1,410        <=               4,200              0.6643
+2022-02-08 22:18:16 - REPORT -      5               1,602        <=               4,200              0.6186
+2022-02-08 22:18:16 - REPORT -      6               2,038        <=               4,200              0.5148
+2022-02-08 22:18:16 - REPORT -      7               1,080        <=               4,200              0.7429
+2022-02-08 22:18:16 - REPORT -      8               1,104        <=               4,200              0.7371
+2022-02-08 22:18:16 - REPORT -      9               3,895        <=               4,200             0.07262
+2022-02-08 22:18:16 - REPORT -     10               3,993        <=               4,200             0.04929
+2022-02-08 22:18:16 - REPORT -     11               4,138        <=               4,200             0.01476
+2022-02-08 22:18:16 - REPORT -     12               4,171        <=               4,200            0.006905
+2022-02-08 22:18:16 - REPORT -     13               4,165        <=               4,200            0.008333
+2022-02-08 22:18:16 - REPORT -     14               4,092        <=               4,200             0.02571
+2022-02-08 22:18:16 - REPORT -     15               4,050        <=               4,200             0.03571
+2022-02-08 22:18:16 - REPORT -     16               2,916        <=               4,200              0.3057
+2022-02-08 22:18:16 - REPORT -     17               2,751        <=               4,200              0.3450
+2022-02-08 22:18:16 - REPORT -     18               2,785        <=               4,200              0.3369
+2022-02-08 22:18:16 - REPORT -     19               2,511        <=               4,200              0.4021
+2022-02-08 22:18:16 - REPORT -     20               2,724        <=               4,200              0.3514
+2022-02-08 22:18:16 - REPORT -     21               3,428        <=               4,200              0.1838
+2022-02-08 22:18:16 - REPORT -     22               2,586        <=               4,200              0.3843
+2022-02-08 22:18:16 - REPORT -     23               3,198        <=               4,200              0.2386
+2022-02-08 22:18:16 - REPORT -     24               2,927        <=               4,200              0.3031
+2022-02-08 22:18:16 - REPORT -     25               1,822        <=               4,200              0.5662
+2022-02-08 22:18:16 - REPORT -     26               2,113        <=               4,200              0.4969
+2022-02-08 22:18:16 - REPORT -     27               2,456        <=               4,200              0.4152
+2022-02-08 22:18:16 - REPORT -     28               2,779        <=               4,200              0.3383
+2022-02-08 22:18:16 - REPORT -     29               3,415        <=               4,200              0.1869
+2022-02-08 22:18:16 - REPORT -     30               2,746        <=               4,200              0.3462
+2022-02-08 22:18:16 - REPORT -     31               3,288        <=               4,200              0.2171
+2022-02-08 22:18:16 - REPORT -     32               1,581        <=               4,200              0.6236
+2022-02-08 22:18:16 - REPORT -     33               2,386        <=               4,200              0.4319
+2022-02-08 22:18:16 - REPORT -     34               2,245        <=               4,200              0.4655
+2022-02-08 22:18:16 - REPORT -     35               3,003        <=               4,200              0.2850
+2022-02-08 22:18:16 - REPORT -     36               2,838        <=               4,200              0.3243
+2022-02-08 22:18:16 - REPORT -     37               3,003        <=               4,200              0.2850
+2022-02-08 22:18:16 - REPORT -     38               1,702        <=               4,200              0.5948
+2022-02-08 22:18:16 - REPORT -     39               1,741        <=               4,200              0.5855
+2022-02-08 22:18:16 - REPORT -     40               2,418        <=               4,200              0.4243
+2022-02-08 22:18:16 - REPORT -     41               1,822        <=               4,200              0.5662
+2022-02-08 22:18:16 - REPORT -     42               2,463        <=               4,200              0.4136
+2022-02-08 22:18:16 - REPORT -     43               1,824        <=               4,200              0.5657
+2022-02-08 22:18:16 - REPORT -     44               2,520        <=               4,200              0.4000
+2022-02-08 22:18:16 - REPORT -     45               2,342        <=               4,200              0.4424
+2022-02-08 22:18:16 - REPORT -     46               2,103        <=               4,200              0.4993
+2022-02-08 22:18:16 - REPORT -     47               1,465        <=               4,200              0.6512
+2022-02-08 22:18:16 - REPORT -     48               1,252        <=               4,200              0.7019
+2022-02-08 22:18:16 - REPORT -     49               883.0        <=               4,200              0.7898
+2022-02-08 22:18:16 - REPORT -     50               739.0        <=               4,200              0.8240
+2022-02-08 22:18:16 - REPORT -     51               264.0        <=               4,200              0.9371
+2022-02-08 22:18:16 - REPORT -     52               152.0        <=               4,200              0.9638
+2022-02-08 22:18:16 - REPORT -     53               312.0        <=               4,200              0.9257
+2022-02-08 22:18:16 - REPORT -     54               352.0        <=               4,200              0.9162
+2022-02-08 22:18:16 - REPORT -     55               812.0        <=               4,200              0.8067
+2022-02-08 22:18:16 - REPORT -     56               1,188        <=               4,200              0.7171
+2022-02-08 22:18:16 - REPORT -     57               602.0        <=               4,200              0.8567
+2022-02-08 22:18:16 - REPORT -     58               2,041        <=               4,200              0.5140
+2022-02-08 22:18:16 - REPORT -     59               1,612        <=               4,200              0.6162
+2022-02-08 22:18:16 - REPORT -     60               1,483        <=               4,200              0.6469
+2022-02-08 22:18:16 - REPORT -     61               1,483        <=               4,200              0.6469
+2022-02-08 22:18:16 - REPORT -     62               1,633        <=               4,200              0.6112
+2022-02-08 22:18:16 - REPORT -     63               3,091        <=               4,200              0.2640
+2022-02-08 22:18:16 - REPORT -     64               2,600        <=               4,200              0.3810
+2022-02-08 22:18:16 - REPORT -     65               2,694        <=               4,200              0.3586
+2022-02-08 22:18:16 - REPORT -     66               2,492        <=               4,200              0.4067
+2022-02-08 22:18:16 - REPORT -     67               2,374        <=               4,200              0.4348
+2022-02-08 22:18:16 - REPORT -     68               2,691        <=               4,200              0.3593
+2022-02-08 22:18:16 - REPORT -     69               2,602        <=               4,200              0.3805
+2022-02-08 22:18:16 - REPORT -     70               2,574        <=               4,200              0.3871
+2022-02-08 22:18:16 - REPORT -     71               2,892        <=               4,200              0.3114
+2022-02-08 22:18:16 - REPORT -     72               3,235        <=               4,200              0.2298
+2022-02-08 22:18:16 - REPORT -     73               2,060        <=               4,200              0.5095
+2022-02-08 22:18:16 - REPORT -     74               1,587        <=               4,200              0.6221
+2022-02-08 22:18:16 - REPORT -     75               1,676        <=               4,200              0.6010
+2022-02-08 22:18:16 - REPORT -     76               2,462        <=               4,200              0.4138
+2022-02-08 22:18:16 - REPORT -     77               1,731        <=               4,200              0.5879
+2022-02-08 22:18:16 - REPORT -     78               2,617        <=               4,200              0.3769
+2022-02-08 22:18:16 - REPORT -     79               2,291        <=               4,200              0.4545
+2022-02-08 22:18:16 - REPORT -     80               2,852        <=               4,200              0.3210
+2022-02-08 22:18:16 - REPORT -     81               3,407        <=               4,200              0.1888
+2022-02-08 22:18:16 - REPORT -     82               1,792        <=               4,200              0.5733
+2022-02-08 22:18:16 - REPORT -     83               1,888        <=               4,200              0.5505
+2022-02-08 22:18:16 - REPORT -     84               3,522        <=               4,200              0.1614
+2022-02-08 22:18:16 - REPORT -     85               2,131        <=               4,200              0.4926
+2022-02-08 22:18:16 - REPORT -     86               1,974        <=               4,200              0.5300
+2022-02-08 22:18:16 - REPORT -     87               1,184        <=               4,200              0.7181
+2022-02-08 22:18:16 - REPORT -     88               3,436        <=               4,200              0.1819
+2022-02-08 22:18:16 - REPORT -     89               2,636        <=               4,200              0.3724
+2022-02-08 22:18:16 - REPORT -     90               3,565        <=               4,200              0.1512
+2022-02-08 22:18:16 - REPORT -     91               2,084        <=               4,200              0.5038
+2022-02-08 22:18:16 - REPORT -     92               2,120        <=               4,200              0.4952
+2022-02-08 22:18:16 - REPORT -     93               2,192        <=               4,200              0.4781
+2022-02-08 22:18:16 - REPORT -     94               2,143        <=               4,200              0.4898
+2022-02-08 22:18:16 - REPORT -     95               1,547        <=               4,200              0.6317
+2022-02-08 22:18:16 - REPORT -     96               2,153        <=               4,200              0.4874
+2022-02-08 22:18:16 - REPORT -     97               2,839        <=               4,200              0.3240
+2022-02-08 22:18:16 - REPORT -     98               2,040        <=               4,200              0.5143
+2022-02-08 22:18:16 - REPORT -     99               2,406        <=               4,200              0.4271
+2022-02-08 22:18:16 - REPORT -    100               1,455        <=               4,200              0.6536
+2022-02-08 22:18:16 - REPORT -    101               1,791        <=               4,200              0.5736
+2022-02-08 22:18:16 - REPORT -    102               2,274        <=               4,200              0.4586
+2022-02-08 22:18:16 - REPORT -    103               2,270        <=               4,200              0.4595
+2022-02-08 22:18:16 - REPORT -    104               845.0        <=               4,200              0.7988
+2022-02-08 22:18:16 - REPORT -    105               2,397        <=               4,200              0.4293
+2022-02-08 22:18:16 - REPORT -    106               1,196        <=               4,200              0.7152
+2022-02-08 22:18:16 - REPORT -    107               1,089        <=               4,200              0.7407
+2022-02-08 22:18:16 - REPORT -    108               732.0        <=               4,200              0.8257
+2022-02-08 22:18:16 - REPORT -    109               451.0        <=               4,200              0.8926
+2022-02-08 22:18:16 - REPORT -    110               938.0        <=               4,200              0.7767
+2022-02-08 22:18:16 - REPORT -    111               2,354        <=               4,200              0.4395
+2022-02-08 22:18:16 - REPORT -    112               702.0        <=               4,200              0.8329
+2022-02-08 22:18:16 - REPORT -    113               519.0        <=               4,200              0.8764
+2022-02-08 22:18:16 - REPORT -    114               140.0        <=               4,200              0.9667
+2022-02-08 22:18:16 - REPORT -    115               786.0        <=               4,200              0.8129
+2022-02-08 22:18:16 - REPORT -    116               720.0        <=               4,200              0.8286
+2022-02-08 22:18:16 - REPORT -    117               852.0        <=               4,200              0.7971
+2022-02-08 22:18:16 - REPORT -    118               243.0        <=               4,200              0.9421
+2022-02-08 22:18:16 - REPORT -    119               1,302        <=               4,200              0.6900
+2022-02-08 22:18:17 - REPORT - 
+2022-02-08 22:18:17 - REPORT - Solution out_cmpWcmp_9Feb_Agricola60 has been written into file out_cmpWcmp_9Feb_Agricola60.sol
+2022-02-08 22:18:17 - REPORT - 
+2022-02-08 22:18:17 - REPORT - -------------------------------------------------------------------------
+2022-02-08 22:18:17 - REPORT - -------------------------------------------------------------------------
+2022-02-08 22:18:17 - REPORT - 
+2022-02-08 22:18:17 - REPORT - 
+2022-02-08 22:18:17 - REPORT - Display and export of IP results: 0.508 seconds.
+2022-02-08 22:18:17 - REPORT - 
+2022-02-08 22:18:17 - REPORT - Execution finished with 2 Warnings.
+2022-02-08 22:18:17 - REPORT - FINISHED_OK
