@@ -6,7 +6,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 T = []
 
-for root, dirs, files in os.walk('/home/icipriano/OmpWomp_Feb9'):
+for root, dirs, files in os.walk('/home/icipriano/DefinitiveUGTest/UG_Conversion_Data/OmpWomp_Feb9'):
     for file in files:
         if file.endswith('.out'):
             # print (root+'/'+str(file))
