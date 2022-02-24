@@ -35,4 +35,10 @@ for i in range(len(T)):
         df.loc[i] = T[i]
     else:    
         print(T[i])
+
+        
 print(df.sort_values(by=['INSTANCE']))            
+
+df = df.sort_values(by=['INSTANCE'])
+# saving the dataframe
+df.to_csv('ompWomp.csv')

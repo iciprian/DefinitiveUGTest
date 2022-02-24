@@ -36,3 +36,7 @@ for i in range(len(T)):
     else:    
         print(T[i])
 print(df.sort_values(by=['INSTANCE']))            
+
+df = df.sort_values(by=['INSTANCE'])
+# saving the dataframe
+df.to_csv('cmpWcmp.csv')
